@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0440" tests="4" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-11-06T06:52:47" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="2.0120" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-11-06T19:28:29" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="express_recipes_routes" timestamp="2021-11-06T06:52:47" tests="4" file="/Users/ctapisab/Documents/git/test/hr/HackerRank-NodeJS-Basic/node-find-recipes/test/index.spec.js" time="0.0440" failures="0">
-    <testcase name="express_recipes_routes Should return 400 for /recipes/step/:id if id is not valid" time="0.0310" classname="Should return 400 for /recipes/step/:id if id is not valid">
+  <testsuite name="express_recipes_routes" timestamp="2021-11-06T19:28:29" tests="4" file="/Users/ctapisab/Documents/git/test/hr/HackerRank-NodeJS-Basic/node-find-recipes/test/index.spec.js" time="2.0120" failures="1">
+    <testcase name="express_recipes_routes Should return 400 for /recipes/step/:id if id is not valid" time="2.0000" classname="Should return 400 for /recipes/step/:id if id is not valid">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/ctapisab/Documents/git/test/hr/HackerRank-NodeJS-Basic/node-find-recipes/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/ctapisab/Documents/git/test/hr/HackerRank-NodeJS-Basic/node-find-recipes/test/index.spec.js)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)]]></failure>
     </testcase>
     <testcase name="express_recipes_routes Should respond with 0 if elapsed time is 0" time="0.0050" classname="Should respond with 0 if elapsed time is 0">
     </testcase>
-    <testcase name="express_recipes_routes Should respond back with the correct step - 1" time="0.0030" classname="Should respond back with the correct step - 1">
+    <testcase name="express_recipes_routes Should respond back with the correct step - 1" time="0.0020" classname="Should respond back with the correct step - 1">
     </testcase>
     <testcase name="express_recipes_routes Should respond back with the correct step - 2" time="0.0050" classname="Should respond back with the correct step - 2">
     </testcase>
